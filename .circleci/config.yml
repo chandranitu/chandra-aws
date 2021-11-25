@@ -31,7 +31,7 @@ jobs:
           command: |
             ssh -o StrictHostKeyChecking=no ubuntu@3.23.103.28 \
             "echo Start deploy && \
-            cd ~/circleci-aws && \
+            cd ~/chandra-aws && \
             git pull && \
             npm i && \
             npm run build && \
